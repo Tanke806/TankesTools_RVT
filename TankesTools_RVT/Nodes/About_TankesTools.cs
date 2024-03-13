@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TankesTools_RVT
 {
-    public class Class1
+    public class About_TankesTools
     {
     }
 }
