@@ -8,5 +8,10 @@ namespace TankesTools_RVT
 {
     public class About_TankesTools
     {
+       public About_TankesTools() { }
+       public static string HelloWorld()
+        {
+            return "Hellow world";
+        }
     }
 }
