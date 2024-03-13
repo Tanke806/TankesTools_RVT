@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TankesTools_RVT
 {
-    public class About_TankesTools
+    public class TankesTools
     {
-       public About_TankesTools() { }
-       public static string HelloWorld()
+       private TankesTools() { }
+       public static string About()
         {
-            return "Hellow world";
+            return "This is The firs node of Tankes Tools package";
         }
     }
 }
