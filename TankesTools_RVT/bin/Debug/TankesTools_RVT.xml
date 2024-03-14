@@ -13,7 +13,7 @@
             <summary>
             ☣ Here is where the instructions of the nodes should be ☣
             </summary>
-            <returns name = "Output"></returns>
+            <returns name = "Output">about the output</returns>
         </member>
     </members>
 </doc>
