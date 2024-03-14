@@ -9,10 +9,11 @@
              Here you put the xml documentation for the node
             </summary>
         </member>
-        <member name="M:TankesTools_RVT.TankesTools.About">
+        <member name="M:TankesTools_RVT.TankesTools.About(System.String)">
             <summary>
             ☣ Here is where the instructions of the nodes should be ☣
             </summary>
+            <param name="extraMessage">Optional extra message</param>
             <returns name = "Output">Tool tip of the output</returns>
         </member>
     </members>
