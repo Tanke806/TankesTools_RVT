@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TankesTools_RVT</name>
+    </assembly>
+    <members>
+        <member name="T:TankesTools_RVT.TankesTools">
+            <summary>
+             Here you put the xml documentation for the node
+            </summary>
+        </member>
+        <member name="M:TankesTools_RVT.TankesTools.About">
+            <summary>
+            ☣ Here is where the instructions of the nodes should be ☣
+            </summary>
+            <returns name = "Output"></returns>
+        </member>
+    </members>
+</doc>

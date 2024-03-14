@@ -17,7 +17,7 @@ namespace TankesTools_RVT
         /// <summary>
         /// ☣ Here is where the instructions of the nodes should be ☣
         /// </summary>
-        /// <returns></returns>
+        /// <returns name = "Output"></returns>
        public static string About()
         {
             // return is the fuction that control the output but is not the visual name
