@@ -5,3 +5,5 @@ C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\obj\Deb
 C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\obj\Debug\TankesTools_RVT.dll
 C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\obj\Debug\TankesTools_RVT.pdb
 C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\bin\Debug\TankesTools_RVT.xml
+C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\obj\Debug\TankesTools_RVT.PackageImages.resources
+C:\Users\Asmod\OneDrive\Documentos\Repos\TankesTools_RVT\TankesTools_RVT\obj\Debug\TankesTools_RVT.csproj.GenerateResource.cache

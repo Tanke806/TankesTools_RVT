@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,5 +46,24 @@
     <Compile Include="Nodes\TankesTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PackageImages.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TST_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TST_128.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild">
+    <GetReferenceAssemblyPaths TargetFrameworkMoniker=".NETFramework, Version=v2.0">
+      <Output TaskParameter="FullFrameworkReferenceAssemblyPaths" PropertyName="FrameworkAssembliesPath" />
+    </GetReferenceAssemblyPaths>
+	<GenerateResource SdkToolsPath="$(TargetFrameworkSDKToolsDirectory)" UseSourcePath="true" Sources="$(ProjectDir)PackageImages.resx" OutputResources="$(ProjectDir)PackageImages.resources" References="$(FrameworkAssembliesPath)System.Drawing.dll" />
+    <GenerateResource UseSourcePath="true" Sources="$(ProjectDir)PackageImages.resx" OutputResources="$(ProjectDir)PackageImages.resources" References="$(FrameworkAssembliesPath)System.Drawing.dll" />
+    <AL TargetType="library" EmbedResources="$(ProjectDir)PackageImages.resources" OutputAssembly="$(OutDir)Package.customization.dll" />
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
 </Project>
