@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
+using Dynamo.Graph.Nodes;
 using Revit.Elements.Views;
 
 namespace Revit.Views.Sheets
@@ -18,7 +19,8 @@ namespace Revit.Views.Sheets
         /// Count all placed views on the input sheet
         /// </summary>
         /// <param name="sheet"></param>
-        /// <returns></returns>
+        /// <returns name = "Views Count">Int</returns>
+        [NodeCategory("Query")]
         public static int GetAllPlacedViews(global::Revit.Elements.Views.Sheet sheet)
         {
             //This cast the Dynamo Revit sheet to a Revit.DB Viewsheet

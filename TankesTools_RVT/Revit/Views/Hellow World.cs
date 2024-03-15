@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dynamo.Graph.Nodes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace Revit.Views.Sheets
         /// </summary>
         /// <param name="extraMessage">Optional extra message</param>
         /// <returns name = "Output">Tool tip of the output</returns>
+        [NodeCategory("Create")]
         public static string About(string extraMessage = "")
         {
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;

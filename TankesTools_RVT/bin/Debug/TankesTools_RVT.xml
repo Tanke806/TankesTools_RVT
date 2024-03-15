@@ -16,17 +16,29 @@
             <param name="extraMessage">Optional extra message</param>
             <returns name = "Output">Tool tip of the output</returns>
         </member>
-        <member name="T:TankesTools_RVT.Revit.Views.Sheets.Sheet">
+        <member name="T:Revit.Views.Sheets.HelloWorld">
+            <summary>
+             Here you put the xml documentation for the node
+            </summary>
+        </member>
+        <member name="M:Revit.Views.Sheets.HelloWorld.About(System.String)">
+            <summary>
+            ☣ Here is where the instructions of the nodes should be ☣
+            </summary>
+            <param name="extraMessage">Optional extra message</param>
+            <returns name = "Output">Tool tip of the output</returns>
+        </member>
+        <member name="T:Revit.Views.Sheets.Sheet">
             <summary>
             Wraper class for sheets
             </summary>
         </member>
-        <member name="M:TankesTools_RVT.Revit.Views.Sheets.Sheet.GetAllPlacedViews(Revit.Elements.Views.Sheet)">
+        <member name="M:Revit.Views.Sheets.Sheet.GetAllPlacedViews(Revit.Elements.Views.Sheet)">
             <summary>
             Count all placed views on the input sheet
             </summary>
             <param name="sheet"></param>
-            <returns></returns>
+            <returns name = "Views Count">Int</returns>
         </member>
     </members>
 </doc>

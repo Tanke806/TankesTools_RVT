@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BBD9B98B-882C-434E-9C46-580F42C60CD9}|TankesTools_RVT.csproj|c:\\users\\asmod\\onedrive\\documentos\\repos\\tankestools_rvt\\tankestools_rvt\\revit\\views\\sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBD9B98B-882C-434E-9C46-580F42C60CD9}|TankesTools_RVT.csproj|solutionrelative:revit\\views\\sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD9B98B-882C-434E-9C46-580F42C60CD9}|TankesTools_RVT.csproj|C:\\Users\\Asmod\\OneDrive\\Documentos\\Repos\\TankesTools_RVT\\TankesTools_RVT\\nodes\\tankestools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD9B98B-882C-434E-9C46-580F42C60CD9}|TankesTools_RVT.csproj|solutionrelative:nodes\\tankestools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,9 +32,9 @@
               "RelativeDocumentMoniker": "Revit\\Views\\Hellow World.cs",
               "ToolTip": "C:\\Users\\Asmod\\OneDrive\\Documentos\\Repos\\TankesTools_RVT\\TankesTools_RVT\\Revit\\Views\\Hellow World.cs",
               "RelativeToolTip": "Revit\\Views\\Hellow World.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T14:20:08.148Z",
+              "WhenOpened": "2024-03-15T15:46:18.616Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +45,9 @@
               "RelativeDocumentMoniker": "Revit\\Views\\Sheet.cs",
               "ToolTip": "C:\\Users\\Asmod\\OneDrive\\Documentos\\Repos\\TankesTools_RVT\\TankesTools_RVT\\Revit\\Views\\Sheet.cs",
               "RelativeToolTip": "Revit\\Views\\Sheet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T12:49:03.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TankesTools.cs",
-              "DocumentMoniker": "C:\\Users\\Asmod\\OneDrive\\Documentos\\Repos\\TankesTools_RVT\\TankesTools_RVT\\Nodes\\TankesTools.cs",
-              "RelativeDocumentMoniker": "Nodes\\TankesTools.cs",
-              "ToolTip": "C:\\Users\\Asmod\\OneDrive\\Documentos\\Repos\\TankesTools_RVT\\TankesTools_RVT\\Nodes\\TankesTools.cs",
-              "RelativeToolTip": "Nodes\\TankesTools.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:27:14.154Z",
               "EditorCaption": ""
             }
           ]
