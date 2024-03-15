@@ -16,5 +16,17 @@
             <param name="extraMessage">Optional extra message</param>
             <returns name = "Output">Tool tip of the output</returns>
         </member>
+        <member name="T:TankesTools_RVT.Revit.Views.Sheets.Sheet">
+            <summary>
+            Wraper class for sheets
+            </summary>
+        </member>
+        <member name="M:TankesTools_RVT.Revit.Views.Sheets.Sheet.GetAllPlacedViews(Revit.Elements.Views.Sheet)">
+            <summary>
+            Count all placed views on the input sheet
+            </summary>
+            <param name="sheet"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

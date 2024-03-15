@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 using Revit.Elements.Views;
 
-namespace TankesTools_RVT.Revit.Views.Sheets
+namespace Revit.Views.Sheets
 {
     /// <summary>
     /// Wraper class for sheets
